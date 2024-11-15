@@ -1,0 +1,30 @@
+/* styles.css */
+
+
+.p-wrapper {
+    margin-bottom: 3rem;
+  }
+  
+  .p-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .p-container .image-container {
+    width: 45%;
+    height: auto;
+    border: 8px solid rgba(232, 232, 232, 0.93);
+  }
+  
+  .p-container > div {
+    flex: 1;
+    padding: 0 1rem;
+  }
+  
+  .p-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  

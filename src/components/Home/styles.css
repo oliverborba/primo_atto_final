@@ -1,0 +1,67 @@
+.hero-wrapper {
+    color: var(--fontColor1);
+    position: relative;
+    padding-bottom: 1rem;
+    min-height: calc(80vh - 200px);
+    /* Ajuste conforme necessário */
+}
+
+.hero-container {
+    justify-content: space-between;
+    align-items: center;
+    /* Centralizando verticalmente */
+}
+
+.hero-left {
+    gap: 3rem;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.hero-des {
+    color: var(--fontColor1);
+    margin-bottom: 20%;
+    /* Reduzindo a margem inferior */
+    font-size: 0.9rem;
+}
+
+.image-container {
+    width: 25rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 5rem;
+    /* Ajustando a borda */
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Garantindo que a imagem cubra todo o contêiner */
+}
+
+@media (max-width: 640px) {
+    .hero-container {
+        margin-top: 2rem;
+    }
+
+    .hero-title h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .image-container {
+        width: 70%;
+        height: 18rem;
+    }
+}

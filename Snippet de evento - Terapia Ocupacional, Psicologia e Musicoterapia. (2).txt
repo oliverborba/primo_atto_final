@@ -1,0 +1,16 @@
+<!-- Event snippet for Terapia Ocupacional, Psicologia e Musicoterapia. (2) conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16570621298/pbv0CMetg8IZEPK6vt09',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>

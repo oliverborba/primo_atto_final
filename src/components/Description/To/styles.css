@@ -1,0 +1,13 @@
+.t-container .image-container {
+    width: 40%;
+    height: 60%;
+    border: 8px solid rgb(232 232 232 / 93%);
+}
+
+.t-container>div {
+    flex: 1;
+}
+
+.t-right {
+    gap: 0.5rem;
+}

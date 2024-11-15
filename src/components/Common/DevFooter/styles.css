@@ -1,0 +1,7 @@
+.small-footer {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 8px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #fff; /* Defina a cor do texto conforme necessário */
+}

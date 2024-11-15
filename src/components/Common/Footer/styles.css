@@ -1,0 +1,58 @@
+/* Footer Styles */
+.f-wrapper {
+    background-color: var(--uiPalette1);
+    padding: 0.3rem 1rem;
+    /* Reduzindo o padding */
+    margin-top: 0.3rem;
+    /* Reduzindo a margem superior */
+    margin-bottom: 0;
+    /* Remove bottom margin */
+}
+
+.f-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* Reduzindo o gap entre os itens */
+}
+
+.f-left,
+.f-right {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 0.1rem;
+    /* Reduzindo o espaço inferior */
+}
+
+.f-left img {
+    margin-bottom: 0.1rem;
+    /* Reduzindo o espaço inferior */
+}
+
+.primaryText {
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.secondaryText {
+    font-size: 0.9rem;
+    color: var(--fontColor1);
+}
+
+.button {
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: white;
+    background: var(--blue-gradient);
+    border: none;
+    border-radius: 4px;
+    transition: all 300ms ease-in;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
